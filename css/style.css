@@ -763,21 +763,21 @@ ul{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     display: table;
     text-align: center;
     background: #f2f3f7;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
-    border-radius: 2px; }
+    border-radius: 10px; }
     .colorlib-feature .colorlib-icon i {
       display: table-cell;
       vertical-align: middle;
       color: #2c98f0;
       font-size: 60px;
-      height: 100px; }
+      height: 70px; }
       @media screen and (max-width: 1200px) {
         .colorlib-feature .colorlib-icon i {
           font-size: 40px; } }
