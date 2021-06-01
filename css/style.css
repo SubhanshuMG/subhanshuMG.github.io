@@ -763,8 +763,8 @@ ul{
     position: absolute;
     top: 0;
     left: 0;
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     display: table;
     text-align: center;
     background: #f2f3f7;
@@ -777,12 +777,12 @@ ul{
       vertical-align: middle;
       color: #2c98f0;
       font-size: 60px;
-      height: 70px; }
+      height: 80px; }
       @media screen and (max-width: 1200px) {
         .colorlib-feature .colorlib-icon i {
           font-size: 40px; } }
   .colorlib-feature .colorlib-text {
-    padding-left: 120px;
+    padding-left: 95px;
     width: 100%; }
     .colorlib-feature .colorlib-text h2, .colorlib-feature .colorlib-text h3 {
       margin: 0;
