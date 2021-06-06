@@ -104,6 +104,21 @@ figure {
       -o-transform: translateX(-300px);
       transform: translateX(-300px);
       padding-top: 4em; } }
+      #demobox {
+        background-color:white ;
+        display: block;
+        padding: 2px ;
+        padding-left: 1%;
+        padding-bottom: 0%;
+        width: 97px;
+        height: 30px;
+        border-radius: 2px;
+        font-size: 13px;
+        letter-spacing: .5px;
+        font-weight: 500;
+        text-transform: uppercase;
+        border: 1.5px solid #2c98f0 ;
+      }
   #colorlib-aside .author-img {
     width: 150px;
     height: 150px;
@@ -1443,3 +1458,4 @@ ul{
   a{
     color: inherit !important;
   }
+  
