@@ -106,11 +106,8 @@ figure {
       padding-top: 4em; } }
       #demobox {
         background-color:white ;
-        display: block;
-        padding: 2px ;
-        padding-left: 1%;
-        padding-bottom: 0%;
-        width: 97px;
+        padding: 2px 10px;
+        width: 101px;
         height: 30px;
         border-radius: 2px;
         font-size: 13px;
@@ -119,6 +116,7 @@ figure {
         text-transform: uppercase;
         border: 1.5px solid #2c98f0 ;
       }
+
   #colorlib-aside .author-img {
     width: 150px;
     height: 150px;
