@@ -679,6 +679,8 @@ body.offcanvas {
       color: #a84cb8; }
   .services.color-5 {
     border-bottom: 2px solid #2fa499; }
+    .services.color-5 .icon2 i {
+      color: #2fa499; }
   .services.color-6 {
     border-bottom: 2px solid #4054b2; }
 
@@ -776,8 +778,8 @@ ul{
     position: absolute;
     top: 0;
     left: 0;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
 
     text-align: center;
     background: #f2f3f7;
@@ -793,8 +795,9 @@ ul{
       height: 80px; }
       @media screen and (max-width: 1200px) {
         .colorlib-feature .colorlib-icon i {
-          font-size: 40px; } }
+          font-size: 60px; } }
   .colorlib-feature .colorlib-text {
+    vertical-align: middle;
     padding-left: 95px;
     width: 100%; }
     .colorlib-feature .colorlib-text h2, .colorlib-feature .colorlib-text h3 {
