@@ -799,6 +799,10 @@ ul{
     vertical-align: middle;
     padding-left: 85px;
     width: 100%; }
+    @media screen and (max-width: 1200px) {
+      .colorlib-text {
+    font-size: 14px;
+    } }
     .colorlib-feature .colorlib-text h2, .colorlib-feature .colorlib-text h3 {
       margin: 0;
       padding: 0; }
@@ -816,7 +820,7 @@ ul{
     font-size: 40px; }
     @media screen and (max-width: 1200px) {
       .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
-        font-size: 28px; } }
+        font-size: 36px; } }
 
 .blog-entry {
   width: 100%;
