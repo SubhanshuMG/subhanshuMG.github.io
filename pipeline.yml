@@ -1,0 +1,32 @@
+# run the pipeline on changes in master branch
+trigger:
+  - master
+# build environment - OS
+pool:
+  vmImage: 'ubuntu-latest'
+steps:
+  # build environment - Node
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '10.x'
+    displayName: 'install node.js'
+  # NPM task
+  - script: |
+      npm install
+      npm run build
+    displayName: 'npm install and build'
+  # Git task
+  - script: |
+      # remove git history and settings - to avoid inheritance
+      rm -rf .git
+      # re-initialise git
+      git init
+      git config user.name "SubhanshuMG"
+      git config user.email "subhanshugupta0@gmail.com"
+      git remote set-url origin https://github.com/SubhanshuMG:${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}@github.com/https://github.com/SubhanshuMG/subhanshuMG.github.io.git
+      # add and commit /docs/ folder
+      git add docs
+      git commit -m "deploy the bundle"
+      # push the commit to the public repository
+      git push origin HEAD:master --force
+    displayName: 'deploy the production bundle'
